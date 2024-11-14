@@ -1,0 +1,36 @@
+.boxed-feature {
+    display: block;
+    background-color: #f0f0f0;  /* Light grey background */
+    padding: 20px;  /* Add some padding for spacing */
+    margin-bottom: 20px;  /* Space between items */
+    border-radius: 8px;  /* Optional: rounded corners */
+    text-decoration: none;  /* Remove underline from links */
+    transition: background-color 0.3s ease;  /* Smooth hover transition */
+}
+
+.boxed-feature:hover {
+    background-color: #e0e0e0;  /* Slightly darker grey on hover */
+}
+
+.boxed-feature i {
+    font-size: 24px;  /* Adjust icon size */
+    margin-right: 15px;  /* Space between icon and text */
+    vertical-align: middle;  /* Align icon with text */
+}
+
+.feature-desc {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feature-title {
+    font-size: 18px;  /* Title font size */
+    color: #333;  /* Dark text color for readability */
+    margin-bottom: 5px;  /* Space between title and description */
+}
+
+.boxed-feature p {
+    font-size: 14px;  /* Description font size */
+    color: #666;  /* Slightly lighter text color for the description */
+    margin: 0;  /* Remove default margin */
+}
